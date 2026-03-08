@@ -1,17 +1,21 @@
-# Performance Engineering Approach
+## Wireless Performance Engineering
 
-## Debug Methodology
+Contributions focused on improving Wi-Fi performance, power efficiency, and connectivity reliability through collaboration with platform teams.
 
-1. Identify bottleneck (CPU / memory / scheduling)
-2. Use telemetry pipeline for data-driven analysis
-3. Validate hypothesis under stress workload
-4. Optimize while preserving real-time constraints
+### Speed (Throughput & Latency)
 
----
+- Assisted in analyzing **Wi-Fi throughput and latency** across different network environments.
+- Evaluated wireless behavior under varying **RSSI and SNR conditions**.
+- Supported investigations into **packet loss and bandwidth utilization issues** affecting network speed.
 
-## Focus Areas
+### Power Efficiency
 
-- Throughput stabilization
-- Packet drop reduction
-- Concurrency stress behavior
-- Queue depth management
+- Analyzed **Wi-Fi power behavior** during active, idle, and reconnection states.
+- Assisted in evaluating **background network activity** impacting system power consumption.
+- Supported validation of **power-efficient wireless operation** across builds.
+
+### Stability & Reliability
+
+- Investigated **intermittent Wi-Fi drops and reconnection behavior**.
+- Assisted in analyzing performance during **roaming and fluctuating signal conditions**.
+- Supported validation of **Wi-Fi stability across software and firmware updates**.

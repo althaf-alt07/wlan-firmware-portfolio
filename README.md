@@ -41,3 +41,4 @@ Comfortable working cross-functionally with:
 - Power Save (TWT)
 - Crash Debug & Bring-up
 - System Software & Platform
+- Wi-Fi Ranging & Sensing

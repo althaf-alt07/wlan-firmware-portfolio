@@ -8,7 +8,7 @@ Senior WLAN Firmware Engineer | 802.11ax / 802.11be | Performance & Reliability 
 Embedded firmware engineer with 8+ years of experience in WLAN firmware development.
 
 Primary focus areas:
-- 802.11ax / 802.11be MAC architecture
+- 802.11ac / 802.11ax MAC architecture
 - Control Path (CP) and Data Path (DP) services
 - Performance optimization & reliability hardening
 - Feature enablement & subsystem ownership

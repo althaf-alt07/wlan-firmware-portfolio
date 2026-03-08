@@ -1,27 +1,82 @@
-# System Software & Platform Services
+# System Software & Embedded Platform
 
-## OS & RTOS
+Experience working close to OS/RTOS layers supporting WLAN firmware on embedded SoCs.
 
-- Zephyr
+---
+
+## Operating Systems
+
+- Zephyr RTOS
 - FreeRTOS
-- Linux Kernel exposure
-- QURT
+- Qualcomm QURT
+- Linux Kernel (system interaction & debugging)
+
+Focus on real-time scheduling, interrupt-driven execution, and OS abstraction layers used by firmware subsystems.
 
 ---
 
-## Architecture
+## RTOS & Concurrency
 
-- ARM fundamentals
-- Interrupt handling
-- Threading model design
+- Thread/task lifecycle management
+- Interrupt vs thread context handling
+- Synchronization primitives (mutex, spinlock, semaphore)
 - Timer infrastructure
-- Memory allocation strategies
+- Latency-sensitive task scheduling
 
 ---
 
-## Build & Infrastructure
+## Memory Architecture
 
-- Make-based build systems
-- Boot/init sequencing
-- Crash handling flow
-- GNU linker scripts (memory section control)
+- Static vs dynamic memory allocation
+- Memory pools and fragmentation control
+- Stack vs heap management
+- Shared memory across subsystems
+- Firmware memory schematics interpretation
+- GNU linker scripts for memory section placement
+
+---
+
+## Processor Architecture
+
+**ARM**
+
+- Privilege modes and interrupt model
+- Memory-mapped IO and register programming
+- Cache and memory hierarchy awareness
+
+**RISC-V**
+
+- ISA and privilege architecture exposure
+- Embedded system deployment concepts
+
+---
+
+## Boot & Platform Infrastructure
+
+- Firmware boot and initialization flow
+- Hardware dependency sequencing
+- Crash handling and watchdog integration
+- Threading model and resource management
+
+---
+
+## Build Systems
+
+- Make-based firmware builds
+- Multi-module build environments
+- Dependency management and build optimization
+
+---
+
+## System-Level Debugging
+
+Debugging issues across firmware, RTOS and hardware layers.
+
+Tools used:
+
+- GDB
+- JTAG
+- Trace32
+- Crashscope
+- Firmware crash dumps
+- Trace-based debugging

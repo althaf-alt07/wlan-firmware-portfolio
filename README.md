@@ -1,5 +1,5 @@
 # Althaf S
-Senior WLAN Firmware Engineer | 802.11ax / 802.11be | Performance & Reliability Focus
+Senior WLAN Firmware Engineer | 802.11ac / 802.11ax | Performance & Reliability Focus
 
 ---
 
@@ -41,4 +41,4 @@ Comfortable working cross-functionally with:
 - Power Save (TWT)
 - Crash Debug & Bring-up
 - System Software & Platform
-- Wi-Fi Ranging & Sensing
+- Wi-Fi Ranging & Sensing(11az/11mc)
